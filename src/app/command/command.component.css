@@ -1,0 +1,150 @@
+.numeroEtage-Sens{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 500px;
+
+}
+.titles{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  width: 450px;
+  color: #E74C3C;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.numeroEtage{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: #E74C3C;
+  font-size: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.image-sens{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container{
+
+  display: flex;
+  justify-content: space-around;
+
+}
+
+/*********************div appel ascenseur*************************/
+.appel-controleAscenseur{
+  margin-top: 27px;
+  width : 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+.button-appel{
+  background-color: #7B7170;
+  border: none;
+  color: white;
+  width: 75px;
+  height: 75px;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 100;
+  box-shadow: 0 4px 4px -0.5px rgba(0,0,0,.4);
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  border: none;
+  outline:none;
+  transition: 0.2s all;
+}
+
+.button-controle{
+  background-color: #F8C22A;
+  border: none;
+  color: white;
+  width: 75px;
+  height: 75px;
+  font-size: 45px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 100;
+  box-shadow: 0 4px 4px -0.5px rgba(0,0,0,.4);
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  border: none;
+  outline:none;
+  transition: 0.2s all;
+}
+
+
+.lancerAscenseur{
+  display: flex;
+  margin-top: 20px;
+
+}
+.button-lancer-arreter{
+  background-color: #E74C3C;
+  border: none;
+  color: white;
+  width: 185px;
+  height: 65px;
+  font-size: 33px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 100;
+  border-radius: 45px;
+  box-shadow: 0 4px 4px -0.5px rgba(0,0,0,.4);
+
+  border: none;
+  outline:none;
+  transition: 0.2s all;
+}
+
+
+.button-lancer-arreter:active, .button-controle:active, .button-appel:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
+
+.grid-container{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  flex-direction: column;
+  flex-wrap: wrap;
+  display: block;
+
+
+
+  justify-content: center;
+  align-items: center;
+
+
+
+}

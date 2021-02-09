@@ -1,0 +1,68 @@
+
+.title{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 300;
+  width: 450px;
+  color: #E74C3C;
+  font-size: 35px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-activer{
+  background-color: #E74C3C;
+  border: none;
+  color: white;
+  width: 185px;
+  height: 65px;
+  font-size: 33px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 100;
+  border-radius: 45px;
+  box-shadow: 0 4px 4px -0.5px rgba(0,0,0,.4);
+
+  border: none;
+  outline:none;
+
+  transition: 0.2s all;
+}
+/* Adding transformation when the button is active */
+
+.button-activer:active {
+  transform: scale(0.98);
+  /* Scaling button to 0.98 to its original size */
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+  /* Lowering the shadow */
+}
+
+
+
+
+.container-main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  /*background-color: #454546;*/
+}
+.title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  font-size: 70px;
+}
+.activerCommandeDistance{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}

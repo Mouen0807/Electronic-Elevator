@@ -1,0 +1,88 @@
+<div class="container">
+
+  <div class="numeroEtage-Sens">
+    <div class="titles"> Numero Etage</div>
+    <div class="numeroEtage">
+      {{actualLevel}}
+    </div>
+    <!--div class="titles"> Sens de Mouvement</div>
+    <div class="image-sens">
+      <img src="/assets/fleche.png" width="100" height="100" alt="">
+    </div-->
+  </div>
+
+  <div class="appel-controleAscenseur">
+    <div class="titles"> Bouton Appel</div>
+    <div class="grid-container">
+
+      <div class="row">
+        <div class="col-lg-5">
+          <button type="button" class="button-appel" (click)="onClickAppelButtonOrControlButton(3, $event)">3</button>
+        </div>
+        <div class="col-lg-5">
+          <button type="button" class="button-appel" (click)="onClickAppelButtonOrControlButton(4, $event)">4</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-5">
+          <button type="button" class="button-appel" (click)="onClickAppelButtonOrControlButton(1, $event)">1</button>
+        </div>
+        <div class="col-lg-5">
+          <button type="button" class="button-appel" (click)="onClickAppelButtonOrControlButton(2, $event)">2</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-5" >
+          <button type="button" class="button-appel" (click)="onClickAppelButtonOrControlButton(0, $event)">0</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="titles"> Lancer Ascenseur</div>
+    <div class="lancerAscenseur" >
+      <button  type="button" class="button-lancer-arreter" (click)="onClickLancer($event)" >lancer</button>
+    </div>
+  </div>
+
+
+  <div class="appel-controleAscenseur">
+    <div class="titles"> Bouton Contrôle</div>
+    <div class="grid-container">
+
+      <div class="row">
+        <div class="col-lg-5">
+          <button type="button" class="button-controle" (click)="onClickAppelButtonOrControlButton(3, $event)">3</button>
+        </div>
+        <div class="col-lg-5">
+          <button type="button" class="button-controle" (click)="onClickAppelButtonOrControlButton(4, $event)">4</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-5">
+          <button type="button" class="button-controle" (click)="onClickAppelButtonOrControlButton(1, $event)">1</button>
+        </div>
+        <div class="col-lg-5">
+          <button type="button" class="button-controle" (click)="onClickAppelButtonOrControlButton(2, $event)">2</button>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-5" >
+          <button type="button" class="button-controle" (click)="onClickAppelButtonOrControlButton(0, $event)">0</button>
+        </div>
+      </div>
+
+    </div>
+    <div class="titles">Arrêter Ascenseur</div>
+    <div class="lancerAscenseur" >
+      <button  type="button" class="button-lancer-arreter" (click)="onClickArreter($event)">arrêter</button>
+    </div>
+
+
+  </div>
+</div>
+
+

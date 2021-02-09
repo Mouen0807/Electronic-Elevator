@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "electronic-web"
+    }
+  },
+  "defaultProject": "electronic-web",
+  "cli": {
+    "analytics": false
+  }
 }

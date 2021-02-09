@@ -1,0 +1,14 @@
+.navbar-brand{
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  color: #E74C3C;
+}
+.navbar-title{
+  margin-left: 15px;
+  color: #E74C3C;
+}
+.menu{
+  box-shadow: 0 4px 4px -2px rgba(0,0,0,.2);
+  background-image: linear-gradient(to right,#ffffff,#ffffff);
+
+}

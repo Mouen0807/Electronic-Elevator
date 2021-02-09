@@ -1,0 +1,31 @@
+
+<div class="container-body">
+
+  <div class="container-login">
+    <form class="test">
+      <div class="div-image">
+        <img src="assets/icon-elevator.png" alt="">
+      </div>
+      <div class="div-name">
+        Connectez-Vous!!!
+      </div>
+      <div class="div-username">
+        <input class="input-text" type="text" placeholder="User Name"
+               name="userName" [(ngModel)]="username">
+      </div>
+      <div class="div-password">
+        <input class="input-text" type="password" placeholder="Password"
+               name="password" [(ngModel)]="password">
+      </div >
+      <div class="div-button">
+        <button class="button-valider" type="submit" (click)="onClickValiderButton($event)">Valider</button>
+      </div>
+      <div class="div-Erreur">
+        {{connectionError}}
+      </div>
+
+    </form>
+
+
+  </div>
+</div>
