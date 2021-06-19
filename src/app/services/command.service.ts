@@ -28,6 +28,12 @@ export class CommandService {
       .subscribe(result => { this.response = result; });
     return this.response;
   }
+  goToElevatorInterior(level: number): string{
+    this.http.get(this.url + 'goToLevelInterior?number=' + level , {responseType: 'text' })
+      .subscribe(result => { this.response = result; });
+    return this.response;
+  }
+
   getActualLevel(): string{
     this.http.get(this.url + 'actualLevel', {responseType: 'text' })
       .subscribe(result => { this.response = result; });

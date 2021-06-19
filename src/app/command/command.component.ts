@@ -16,7 +16,7 @@ export class CommandComponent implements OnInit{
   test = true;
 
   constructor(public commandService: CommandService) {
-    this.mySub = interval(2000).subscribe((func => {
+    this.mySub = interval(500).subscribe((func => {
       this.actualLevel = this.commandService.getActualLevel();
     }));
   }
@@ -31,6 +31,9 @@ export class CommandComponent implements OnInit{
   }
   onClickAppelButtonOrControlButton(value: number, $event): void{
     this.commandService.goToElevator(value);
+  }
+  onClickAppelControlButton(value: number, $event): void{
+    this.commandService.goToElevatorInterior(value);
   }
 
 
