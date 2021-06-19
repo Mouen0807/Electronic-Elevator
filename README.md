@@ -1,6 +1,7 @@
 # ElectronicWeb
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.2.
+It's a frontend web application for electronic Elevator Project ,with backend build with arduino (C++/C)
 
 ## Development server
 
